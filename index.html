@@ -187,6 +187,14 @@
         console.log(e.target.value);
       }
       // ...
+      /* OTHER WAY
+      const inputField = document.getElementById("input-field");
+      function log(e) {
+        const inputField = document.getElementById("input-field");
+        console.log(e.target.value);
+      }
+      inputField.addEventListener(keydown, log(e));
+      */
 
       /* EXERCISE 12
          Create a welcome alert message when the page successfully loads.
